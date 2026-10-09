@@ -1,7 +1,7 @@
 # Algorithmic Stock Market Trend Simulator & Moving Average Analysis
 
 This repository contains a high-level financial mathematics simulation framework built to analyze stock market trends over time.
-![Stock Market Trend Graph](output%20(7).png)
+![Stock Market Trend Graph](Output%20(7).png)
 
 ### Core Mathematical Framework:
 * Utilized Random Normal Distribution logic matrices (`np.random.normal`) to simulate realistic stock market returns metrics.

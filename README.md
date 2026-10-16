@@ -1,9 +1,20 @@
-# Algorithmic Stock Market Trend Simulator & Moving Average Analysis
+# Financial Market Trend Simulation and Moving Average Analysis
 
-This repository contains a high-level financial mathematics simulation framework built to analyze stock market trends over time.
+## Objective
+This project simulates stock-price movement and analyses trends using a moving-average method.
+
+## Tools
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+
+## Method
+Random values generated with NumPy are used to create a simulated price series. Pandas is then used to calculate a 10-day rolling moving average, and Matplotlib is used to visualise the simulated prices and trend line.
+
+## Result
+The project produces a chart comparing the simulated price series with its 10-day moving average.
+
+## Output
 ![Stock Market Trend Graph](Output%20(7).png)
 
-### Core Mathematical Framework:
-* Utilized Random Normal Distribution logic matrices (`np.random.normal`) to simulate realistic stock market returns metrics.
-* Applied a 10-Day rolling window formula (`.rolling().mean()`) to compute the historical Moving Average trendlines.
-* Rendered a live trading dashboard configuration featuring customized color themes via Matplotlib.
